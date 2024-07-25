@@ -20,4 +20,4 @@ function outer() {
 
 outer();
 
-inner();
+// inner(); // inner is not defined

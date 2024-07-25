@@ -9,6 +9,8 @@ var dog = {
 
     // 메서드 (객체에 묶여 있는 함수)
     eat : function(food) {
+        // console.log(`${name}(은)는 ${food}를 맛있게 먹어요.`)
+        // this는 dog를 가리킨다.
         console.log(`${this.name}(은)는 ${food}를 맛있게 먹어요.`)
     }
 }

@@ -19,6 +19,6 @@ console.log(false || 'banana'); // banana
 var obj = null;
 // var val = obj.value; // Cannot read properties of null (reading 'value')
 
+// obj가 Falsy(null, undefined) 값이면 좌항만 실행하여 val -> null
+// obj가 truthy 값이면 val -> 좌항 우항 모두 실행
 var val = obj && obj.value;
-
-val = obj;

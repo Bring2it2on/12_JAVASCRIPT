@@ -6,7 +6,7 @@ null 병합 연산자
 -> 변수에 기본값을 설정할 때 유용하다.
 */
 
-var test = null ?? '기본 값';
+var test = null ?? '기본값';
 console.log(test)
 
 // 단축 평가로 변수에 기본값을 할당

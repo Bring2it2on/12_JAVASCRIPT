@@ -40,11 +40,17 @@ function hello2(name = "아무개") {
     return `${name}님 안녕하세요~!`;
 }
 
-var result = hello2();
+// var result = hello2();
 // console.log(result);
 
 console.log("========== type error 발생확인 ==========")
 // result = hello2("홍길동", "유관순");
 // result = hello2(1);
+
+/* 
+매개변수의 최대 개수에 대해 명시적인 제한은 없다.
+하지만 이상적인 함수는 한가지의 일만 해야하며 가급적 작게 만들어야 한다.
+따라서 최대 3개 이상을 넘지 않는것을 권장한다.
+*/
 
 

@@ -20,3 +20,5 @@ function func() {
 // 반환값을 명시적으로 지정하지 않으면 undefined가 반환된다.
 console.log(func());
 
+// 반환문을 생략할 수도 있다. 이경우에 undefined가 반환된다.
+

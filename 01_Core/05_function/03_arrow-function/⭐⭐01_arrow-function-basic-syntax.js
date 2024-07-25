@@ -38,5 +38,3 @@ console.log(message(5,10));
 // 매개변수가 하나면 소괄호도 생략 가능
 message = x => x*20;
 console.log(message(10));
-
-message.print();

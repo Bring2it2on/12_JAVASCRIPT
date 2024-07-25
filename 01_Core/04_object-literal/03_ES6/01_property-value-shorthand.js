@@ -6,7 +6,7 @@ var product = {
     id : id,
     price : price,
 
-}
+};
 
 console.log(product);
 

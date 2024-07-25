@@ -12,14 +12,18 @@ function Student(name, age) {
     this.getInfo = function() {
         return `${this.name}(은)는 ${this.age}세 입니다.`
     }
+    
+    console.log(this);
 
     // 3. 완성된 인스턴스가 바인딩 된 this 암묵적으로 반환
     // 생성자 내부에서 return은 생략하는 것이 기본
 
     // return {}; // 명시적으로 객체를 반환하면 암묵적인 this 반환이 무시된다.
 
-    // return 1; // 명시적으로 원시값을 반환하면 원시값 반환이 무시된다.
+    return 1; // 명시적으로 원시값을 반환하면 원시값 반환이 무시된다.
 }
 
 const student = new Student('홍길동', 20);
+const student2 = new Student('심사임당', 40);
+
 console.log(student);

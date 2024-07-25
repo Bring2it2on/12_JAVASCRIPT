@@ -19,6 +19,7 @@ console.log(factorial(4));
 반복문보다 재귀 함수 사용이 더 직관적일 때만 사용하는 것이 바람직하다.
 */
 
+// let 반복문 사용하여 factorial 만들기
 function factorial2(n) {
     var result = 1
     for (let i = 1; i <= n; i++) {

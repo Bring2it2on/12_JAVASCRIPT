@@ -41,6 +41,9 @@ const student = {
 student.name = '유관순';
 console.log(student);
 
+delete student.name
+console.log(student);
+
 
 // 재할당은 불가하다.
 student = {};

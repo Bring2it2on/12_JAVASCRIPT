@@ -30,7 +30,7 @@ var student = {
     getInfo : function() {
         return `${this.name}(은)는 ${this.age}세 입니다.`
     }
-}
+};
 
 console.log(typeof student);
 console.log(student);
@@ -41,5 +41,12 @@ console.log(student.getInfo());
 var student2 = {};
 console.log(typeof student2);
 console.log(student2);
+
+/* 
+객체 리터럴의 닫는 중괄호 뒤에는 세미콜론을 작성해줘야한다.
+숫자, 문자열과 비슷하게 리터럴로 객체를 생성한다.
+리터럴에 프로퍼티를 포함시켜 객체를 생성함과 동시에 프로퍼티를 만들 수도 있고
+객체를 생성한 이후에 동적으로 넣을수도있다.
+*/
 
 

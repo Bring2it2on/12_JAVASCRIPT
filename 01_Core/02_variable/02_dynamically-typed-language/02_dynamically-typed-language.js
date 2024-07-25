@@ -41,6 +41,8 @@ console.log(typeof test) // object
 test = function(){} // 함수
 console.log(typeof test) // function
 
+
+
 /* 
 동적 타입 언어 단점을 보완하기 위해 유의할 점
 1. 변수는 꼭 필요한 경우에 한해 제한적으로 사용
