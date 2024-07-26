@@ -134,14 +134,25 @@ const students = [
     {name: '유관순', score : 90},
     {name: '홍길동', score : 80},
     {name: '장보고', score : 70},
+    {name: '유관순', score : 95},
 ];
 
-result = students.find(item => item.name === '홍길동');
+result = students.find(item => item.name === '유관순');
 console.log(result)
-result = students.findIndex(item => item.name === '홍길동');
+result = students.findIndex(item => item.name === '유관순');
 console.log(result)
 
 result = students.find(item => item.name === '지동현');
 console.log(result)
 result = students.findIndex(item => item.name === '지동현');
+console.log(result)
+
+// find, findIndex : 일치하는 요소를 찾으면, 더이상 탐색을 하지 않음 -> 하나의 요소, 인덱스만 반환
+
+// filter는 콜백함수의 실행 결과가 true인 배열 요소 값만 추출해서 배열로 반환
+console.log('=============== filter, find 비교 ===============');
+result = students.find(item => item.score >= 80);
+console.log(result)
+
+result = students.filter(item => item.score >= 80);
 console.log(result)
