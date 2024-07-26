@@ -40,5 +40,6 @@ console.log(sparse)
 console.log(sparse[0])
 console.log(sparse[1])
 console.log(sparse[2])
-console.log(sparse[3])
-console.log(sparse[4])
+console.log(sparse[3]) // -> 인덱스는 유지됨
+
+

@@ -7,7 +7,7 @@ var x = 5;
 
 function test() {
 
-    'use strict';
+    // 'use strict';
 
     x = 10; // ReferenceError: x is not defined
 

@@ -41,6 +41,7 @@ const student = {
 student.name = '유관순';
 console.log(student);
 
+// 삭제도 가능
 delete student.name
 console.log(student);
 

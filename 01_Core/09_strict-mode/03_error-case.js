@@ -2,9 +2,10 @@
 
 // 암묵적 전역
 (function () {
-    'use strict';
+    // 'use strict';
 
     x = 1;
+    
     console.log(x)
 })();
 

@@ -20,7 +20,7 @@ function Student(name, age) {
 
     // return {}; // 명시적으로 객체를 반환하면 암묵적인 this 반환이 무시된다.
 
-    return 1; // 명시적으로 원시값을 반환하면 원시값 반환이 무시된다.
+    // return 1; // 명시적으로 원시값을 반환하면 원시값 반환이 무시된다.
 }
 
 const student = new Student('홍길동', 20);
