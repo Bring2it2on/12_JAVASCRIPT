@@ -18,7 +18,7 @@ console.log(/hello/.test(target));
 // String.prototype.match
 // String 표준 빌트인 객체가 제공하는 메서드, 대상 문자열과 인수로 전달받은 정규 표현식과의
 // 매칭결과를 배열로 반환
-console.log(target.match(/va/));
-console.log(target.match(/va/g));
-console.log(target.match(/hello/));
+console.log(target.match(/va/)); // 검색결과를 exec 같은 내용으로 반환
+console.log(target.match(/va/g)); // [ 'va', 'va' ]
+console.log(target.match(/hello/)); // null
 

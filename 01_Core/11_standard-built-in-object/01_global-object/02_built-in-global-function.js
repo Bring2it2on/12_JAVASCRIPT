@@ -66,7 +66,7 @@ console.log(dec); //
 
 const uriComp = 'name=홍길동&job=student'
 const encComp = encodeURIComponent(uriComp);
-console.log(encComp);
+console.log(encComp); // name%3D%ED%99%8D%EA%B8%B8%EB%8F%99%26job%3Dstudent
 
 // decodeURIComponent
 const decComp = decodeURIComponent(encComp);
